@@ -1,4 +1,6 @@
 #TODO: Define a function called reverse_string that accepts one argument (a string) and uses string slicing to return the string in reverse order.
+import string
+
 def reverse_string(s):
     return s[::-1]
 
