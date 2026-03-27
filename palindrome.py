@@ -16,10 +16,7 @@ def is_palindrome(s):
     normalized = normalize_string(s)
     return normalized == normalized[::-1]
 
-#TODO: Provide an option for the user to input a string and print whether it is a palindrome or not.
-user_input = input("Enter a string: ")
-if is_palindrome(user_input):
-    print("The string is a palindrome.")
-else:
-    print("The string is not a palindrome.")
-    
+#TODO: Test the function with various input strings, including palindromes and non-palindromes, to ensure it works correctly.
+print(is_palindrome("racecar"))
+print(is_palindrome("hello"))
+print(is_palindrome("A man a plan a canal Panama"))
