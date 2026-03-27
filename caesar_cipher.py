@@ -15,7 +15,7 @@ def caesar_cipher(text, shift):
             result += char
     return result
 
-#TODO: Test the function with the following cases:
+#TODO: Test the function with the following cases to ensure it works correctly.
 print(caesar_cipher("Hello, World!", 3))
 print(caesar_cipher("abc", 3))
 print(caesar_cipher("xyz", 2)) 
