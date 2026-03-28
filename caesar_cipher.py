@@ -15,6 +15,13 @@ def caesar_cipher(text, shift):
             result += char
     return result
 
+#TODO: Allow the user to input text and shift value, then call the caesar_cipher function with those inputs to display the encrypted text.
+if __name__ == "__main__":
+    user_text = input("Enter the text to encrypt: ")
+    user_shift = int(input("Enter the shift value: "))
+    encrypted_text = caesar_cipher(user_text, user_shift)
+    print(f"Encrypted text: {encrypted_text}")  
+
 #TODO: Test the function with the following cases to ensure it works correctly.
 print(caesar_cipher("Hello, World!", 3))
 print(caesar_cipher("abc", 3))
