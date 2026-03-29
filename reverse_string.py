@@ -4,9 +4,9 @@ import string
 def reverse_string(s: str) -> str:
     return s[::-1]
 
+ #TODO: Test the function with different input strings to ensure it works correctly.
 def main() -> None:
     try:
-        #TODO: Test the function with different input strings to ensure it works correctly.
         print(reverse_string("hello world"))
         print(reverse_string("zero"))
         print(reverse_string("Python"))
