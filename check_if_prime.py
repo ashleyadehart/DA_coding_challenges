@@ -1,5 +1,7 @@
+import math
+
 #TODO: Define a function called is_prime that takes one integer as input.
-def is_prime(n):
+def is_prime(n: int):
     n = int(n)
 
 #TODO: Return True if the number is prime and False otherwise.
@@ -11,11 +13,18 @@ def is_prime(n):
     else:
         return False
 
-#TODO: Test the function with various input numbers to ensure it works correctly.
-print(is_prime(11))
-print(is_prime(15))
-print(is_prime(2))
+#TODO: Test the function with different input values to ensure it works correctly.
+def main() -> None:
+    try:
+        print(is_prime(11))
+        print(is_prime(15))
+        print(is_prime(2))
 
+    except ValueError:
+        print("Invalid input! Please enter an integer.")
+
+if __name__ == "__main__":
+    main()
 
 
 
