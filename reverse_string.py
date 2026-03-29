@@ -4,7 +4,6 @@ import string
 def reverse_string(s: str) -> str:
     return s[::-1]
 
-
 def main() -> None:
     try:
         #TODO: Test the function with different input strings to ensure it works correctly.
