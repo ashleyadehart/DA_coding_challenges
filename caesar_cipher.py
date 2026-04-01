@@ -1,7 +1,7 @@
 import math
 
 #TODO: Define a function called caesar_cipher that accepts a string text and an integer shift.
-def caesar_cipher(text: str, shift: int) -> str:
+def caesar_cipher(text: str, shift: int):
     result = ""
     
 #TODO: Return a new string with each alphabetical character shifted by the shift amount. Keep the case (uppercase/lowercase) the same. Do not change non-letter characters like punctuation, spaces, or numbers.
